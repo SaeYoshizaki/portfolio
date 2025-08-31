@@ -8,11 +8,10 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
     { href: "#experience", label: "Experience" },
     { href: "#skills", label: "Skills" },
-    { href: "#works", label: "Works" },
+    { href: "#career", label: "Career" },
     { href: "#activities", label: "Activities" },
     { href: "#contact", label: "Contact" },
   ];
@@ -33,7 +32,7 @@ export default function Header() {
             onClick={() => handleNavClick("#home")}
             className="font-mono text-xl font-bold text-primary hover:opacity-80 transition-opacity"
           >
-            {"<Security_Portfolio />"}
+            {"Portfolio"}
           </button>
 
           <nav className="hidden md:flex items-center space-x-8">
